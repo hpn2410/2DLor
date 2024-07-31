@@ -1,0 +1,159 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\pnu24\\Desktop\\Unity Project\\2DProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9F478B2A-144D-827E-BDBC-CD6D9B431814}|Assembly-CSharp.csproj|C:\\Users\\pnu24\\Desktop\\Unity Project\\2DProject\\assets\\scripts\\gamemanager\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F478B2A-144D-827E-BDBC-CD6D9B431814}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F478B2A-144D-827E-BDBC-CD6D9B431814}|Assembly-CSharp.csproj|C:\\Users\\pnu24\\Desktop\\Unity Project\\2DProject\\assets\\scripts\\enemy\\enemyhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F478B2A-144D-827E-BDBC-CD6D9B431814}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\enemyhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F478B2A-144D-827E-BDBC-CD6D9B431814}|Assembly-CSharp.csproj|c:\\users\\pnu24\\desktop\\unity project\\2dproject\\assets\\scripts\\enemy\\bossai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F478B2A-144D-827E-BDBC-CD6D9B431814}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\bossai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F478B2A-144D-827E-BDBC-CD6D9B431814}|Assembly-CSharp.csproj|c:\\users\\pnu24\\desktop\\unity project\\2dproject\\assets\\scripts\\player\\playermanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F478B2A-144D-827E-BDBC-CD6D9B431814}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playermanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F478B2A-144D-827E-BDBC-CD6D9B431814}|Assembly-CSharp.csproj|c:\\users\\pnu24\\desktop\\unity project\\2dproject\\assets\\scripts\\music\\settingmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F478B2A-144D-827E-BDBC-CD6D9B431814}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\music\\settingmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F478B2A-144D-827E-BDBC-CD6D9B431814}|Assembly-CSharp.csproj|c:\\users\\pnu24\\desktop\\unity project\\2dproject\\assets\\scripts\\gamemanager\\maptransition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F478B2A-144D-827E-BDBC-CD6D9B431814}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager\\maptransition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F478B2A-144D-827E-BDBC-CD6D9B431814}|Assembly-CSharp.csproj|C:\\Users\\pnu24\\Desktop\\Unity Project\\2DProject\\assets\\scripts\\enemy\\enemypathfinding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F478B2A-144D-827E-BDBC-CD6D9B431814}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\enemypathfinding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F478B2A-144D-827E-BDBC-CD6D9B431814}|Assembly-CSharp.csproj|C:\\Users\\pnu24\\Desktop\\Unity Project\\2DProject\\assets\\scripts\\enemy\\enemyai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F478B2A-144D-827E-BDBC-CD6D9B431814}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\enemyai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SettingManager.cs",
+              "DocumentMoniker": "C:\\Users\\pnu24\\Desktop\\Unity Project\\2DProject\\Assets\\Scripts\\Music\\SettingManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Music\\SettingManager.cs",
+              "ToolTip": "C:\\Users\\pnu24\\Desktop\\Unity Project\\2DProject\\Assets\\Scripts\\Music\\SettingManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Music\\SettingManager.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAmwCUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T11:42:29.914Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PlayerManagement.cs",
+              "DocumentMoniker": "C:\\Users\\pnu24\\Desktop\\Unity Project\\2DProject\\Assets\\Scripts\\Player\\PlayerManagement.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerManagement.cs",
+              "ToolTip": "C:\\Users\\pnu24\\Desktop\\Unity Project\\2DProject\\Assets\\Scripts\\Player\\PlayerManagement.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerManagement.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T10:49:13.242Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MapTransition.cs",
+              "DocumentMoniker": "C:\\Users\\pnu24\\Desktop\\Unity Project\\2DProject\\Assets\\Scripts\\GameManager\\MapTransition.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager\\MapTransition.cs",
+              "ToolTip": "C:\\Users\\pnu24\\Desktop\\Unity Project\\2DProject\\Assets\\Scripts\\GameManager\\MapTransition.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameManager\\MapTransition.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T10:45:09.754Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BossAI.cs",
+              "DocumentMoniker": "C:\\Users\\pnu24\\Desktop\\Unity Project\\2DProject\\Assets\\Scripts\\Enemy\\BossAI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\BossAI.cs",
+              "ToolTip": "C:\\Users\\pnu24\\Desktop\\Unity Project\\2DProject\\Assets\\Scripts\\Enemy\\BossAI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy\\BossAI.cs",
+              "ViewState": "AQIAAKsAAAAAAAAAAAAqwLIAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T13:20:05.241Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "C:\\Users\\pnu24\\Desktop\\Unity Project\\2DProject\\Assets\\Scripts\\GameManager\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager\\GameManager.cs",
+              "ToolTip": "C:\\Users\\pnu24\\Desktop\\Unity Project\\2DProject\\Assets\\Scripts\\GameManager\\GameManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameManager\\GameManager.cs",
+              "ViewState": "AQIAADYAAAAAAAAAAAAAAD8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T14:34:47.648Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EnemyPathFinding.cs",
+              "DocumentMoniker": "C:\\Users\\pnu24\\Desktop\\Unity Project\\2DProject\\Assets\\Scripts\\Enemy\\EnemyPathFinding.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\EnemyPathFinding.cs",
+              "ToolTip": "C:\\Users\\pnu24\\Desktop\\Unity Project\\2DProject\\Assets\\Scripts\\Enemy\\EnemyPathFinding.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy\\EnemyPathFinding.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACgAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T07:59:38.874Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EnemyHealth.cs",
+              "DocumentMoniker": "C:\\Users\\pnu24\\Desktop\\Unity Project\\2DProject\\Assets\\Scripts\\Enemy\\EnemyHealth.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\EnemyHealth.cs",
+              "ToolTip": "C:\\Users\\pnu24\\Desktop\\Unity Project\\2DProject\\Assets\\Scripts\\Enemy\\EnemyHealth.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy\\EnemyHealth.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAAAqwCwAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-27T12:56:25.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EnemyAI.cs",
+              "DocumentMoniker": "C:\\Users\\pnu24\\Desktop\\Unity Project\\2DProject\\Assets\\Scripts\\Enemy\\EnemyAI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\EnemyAI.cs",
+              "ToolTip": "C:\\Users\\pnu24\\Desktop\\Unity Project\\2DProject\\Assets\\Scripts\\Enemy\\EnemyAI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy\\EnemyAI.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC4AAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T06:34:05.592Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
