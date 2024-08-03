@@ -13,6 +13,10 @@ TagManager:
   - Inventory
   - Setting
   - CameraFollow
+  - EventSystem
+  - VictoryPanel
+  - GameOverPanel
+  - PanelScreen
   layers:
   - Default
   - TransparentFX

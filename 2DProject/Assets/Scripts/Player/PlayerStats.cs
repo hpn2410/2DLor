@@ -102,6 +102,7 @@ public class PlayerStats : MonoBehaviour
         if (currentHealth <= 0)
         {
             currentHealth = 0;
+            GameManager.instance.EndGame("You have been defeated.");
         }
     }
 }

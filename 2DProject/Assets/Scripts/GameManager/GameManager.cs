@@ -11,7 +11,9 @@ public class GameManager : MonoBehaviour
     public GameObject camerafollow;
     public GameObject mainCamera;
     private Vector3 playerPosition;
-
+    public GameObject eventSystem;
+    public GameObject panelManager;
+    public PanelManager panelManagerScript;
     private void Awake()
     {
         if (instance == null)
@@ -27,16 +29,24 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
-        player = GameObject.FindWithTag("Player");
-        inventory = GameObject.FindWithTag("Inventory");
-        setting = GameObject.FindWithTag("Setting");
-        mainCamera = Camera.main.gameObject;
-        camerafollow = GameObject.FindWithTag("CameraFollow");
+        SceneManager.sceneLoaded += OnSceneLoaded;
+
+        if (player == null) player = GameObject.FindWithTag("Player");
+        if (inventory == null) inventory = GameObject.FindWithTag("Inventory");
+        if (setting == null) setting = GameObject.FindWithTag("Setting");
+        if (mainCamera == null) mainCamera = Camera.main.gameObject;
+        if (camerafollow == null) camerafollow = GameObject.FindWithTag("CameraFollow");
+        if (eventSystem == null) eventSystem = GameObject.FindWithTag("EventSystem");
+        if (panelManager == null) panelManager = GameObject.FindWithTag("PanelScreen");
+        if (panelManagerScript == null) panelManagerScript = panelManager.GetComponent<PanelManager>();
+
         DontDestroyOnLoad(player);
         DontDestroyOnLoad(inventory);
         DontDestroyOnLoad(setting);
         DontDestroyOnLoad(mainCamera);
+        DontDestroyOnLoad(eventSystem);
         DontDestroyOnLoad(camerafollow);
+        DontDestroyOnLoad(panelManager);
     }
 
     public void SavePlayerPosition(Vector3 position)
@@ -56,30 +66,48 @@ public class GameManager : MonoBehaviour
         Invoke("UpdateUIAfterSceneLoad", 0.1f); // Invoke after a short delay to ensure the scene is fully loaded
     }
 
-    private void UpdateUIAfterSceneLoad()
+    public void EndGame(string message)
     {
-        // Update references to the canvas and camera if needed
-        Canvas[] canvases = FindObjectsOfType<Canvas>();
-        foreach (Canvas canvas in canvases)
-        {
-            if (canvas.worldCamera == null)
-            {
-                canvas.worldCamera = mainCamera.GetComponent<Camera>();
-            }
-        }
+        panelManagerScript.ShowEndGame(message);
+    }
 
-        // Ensure inventory and setting are reparented to the correct canvas
-        Canvas mainCanvas = mainCamera.GetComponentInChildren<Canvas>();
-        if (mainCanvas != null)
-        {
-            inventory.transform.SetParent(mainCanvas.transform, false);
-            setting.transform.SetParent(mainCanvas.transform, false);
-        }
+    public void Victory(string message)
+    {
+        panelManagerScript.ShowVictory(message);
+    }
 
-        // Force update canvases to ensure UI elements are refreshed
-        Canvas.ForceUpdateCanvases();
+    public void Restart()
+    {
+        Destroy(player);
+        Destroy(inventory);
+        Destroy(setting);
+        Destroy(mainCamera);
+        Destroy(eventSystem);
+        Destroy(camerafollow);
+        Destroy(panelManager);
 
-        // Re-enable EventSystem for the inventory and setting to ensure UI interaction
-        EventSystem.current.SetSelectedGameObject(null);
+        SceneManager.LoadScene("Slime");
+
+        DontDestroyOnLoad(gameObject);
+    }
+
+    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        player = GameObject.FindWithTag("Player");
+        inventory = GameObject.FindWithTag("Inventory");
+        setting = GameObject.FindWithTag("Setting");
+        mainCamera = Camera.main.gameObject;
+        camerafollow = GameObject.FindWithTag("CameraFollow");
+        eventSystem = GameObject.FindWithTag("EventSystem");
+        panelManager = GameObject.FindWithTag("PanelScreen");
+        panelManagerScript = panelManager.GetComponent<PanelManager>();
+
+        DontDestroyOnLoad(player);
+        DontDestroyOnLoad(inventory);
+        DontDestroyOnLoad(setting);
+        DontDestroyOnLoad(mainCamera);
+        DontDestroyOnLoad(eventSystem);
+        DontDestroyOnLoad(camerafollow);
+        DontDestroyOnLoad(panelManager);
     }
 }

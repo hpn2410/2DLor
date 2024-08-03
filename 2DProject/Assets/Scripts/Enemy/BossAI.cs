@@ -187,6 +187,8 @@ public class BossAI : MonoBehaviour
     {
         if (currentHealth <= 0)
         {
+            currentHealth = 0;
+            GameManager.instance.Victory("You have escaped!!!");
             Destroy(gameObject);
         }
     }

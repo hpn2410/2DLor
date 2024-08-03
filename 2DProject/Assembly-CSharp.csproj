@@ -64,6 +64,7 @@
     <Compile Include="Assets\Scripts\Music\SettingManager.cs" />
     <Compile Include="Assets\Scripts\GameManager\GameManager.cs" />
     <Compile Include="Assets\Scripts\Enemy\EnemyAI.cs" />
+    <Compile Include="Assets\Scripts\GameManager\GameOverPanel.cs" />
     <Compile Include="Assets\Scripts\Enemy\EnemyPathFinding.cs" />
     <Compile Include="Assets\Scripts\SO\ItemSO.cs" />
     <Compile Include="Assets\Scripts\Inventory\Item.cs" />
@@ -80,6 +81,7 @@
     <Compile Include="Assets\Scripts\Music\Sound.cs" />
     <Compile Include="Assets\Scripts\Enemy\KnockBack.cs" />
     <Compile Include="Assets\Scripts\Health\HealthBar.cs" />
+    <Compile Include="Assets\Scripts\GameManager\VictoryPanel.cs" />
     <Compile Include="Assets\Scripts\Enemy\BossAI.cs" />
     <Compile Include="Assets\Scripts\Music\AudioScript.cs" />
     <Compile Include="Assets\Scripts\Button\DropButtonScript.cs" />
@@ -87,6 +89,7 @@
     <Compile Include="Assets\Scripts\Weapon\Sword.cs" />
     <Compile Include="Assets\Scripts\GameManager\MapTransition.cs" />
     <Compile Include="Assets\Scripts\Weapon\WeaponAttack.cs" />
+    <Compile Include="Assets\Scripts\GameManager\PanelManager.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerStats.cs" />
     <Compile Include="Assets\Scripts\Music\ChangeScene.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerManagement.cs" />
@@ -99,7 +102,6 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
     <None Include="Assets\DG Fire Zone Expansion Full Ver. (1)\PremiumLicense.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
-    <None Include="Assets\4-Direction\License.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
@@ -109,7 +111,6 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
     <None Include="Assets\COPY SPRIGHT\Comic Battle Royale\2D Character - Astronaut\Documentation.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
-    <None Include="Assets\4-Direction\readme.txt" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
